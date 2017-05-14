@@ -16,6 +16,17 @@
     "dist"
   ],
   "main": "index.js",
+  "keywords": [
+    "qiniu",
+    "upload",
+    "tiny-qiniu",
+    "ant-design",
+    "rc-upload",
+    "react",
+    "react-component",
+    "request",
+    "antd"
+  ],
   "author": "cap32",
   "license": "MIT",
   "peerDependencies": {
