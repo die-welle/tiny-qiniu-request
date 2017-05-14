@@ -1,0 +1,17 @@
+{
+	"plugins": [
+		["transform-es2015-modules-umd", {
+			"globals": {
+				"tiny-qiniu": "TinyQiniu",
+			}
+		}]
+	],
+	"env": {
+		"min": {
+			"presets": [
+				"babili",
+			],
+		},
+	},
+	"moduleId": "tinyQiniuRequest",
+}

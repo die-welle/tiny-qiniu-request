@@ -1,0 +1,33 @@
+{
+  "name": "tiny-qiniu-request",
+  "version": "0.0.0",
+  "description": "tiny-qiniu for rc-upload or antd upload component `customRequest` property",
+  "repository": "die-welle/tiny-qiniu-request",
+  "scripts": {
+    "prebuild": "rimraf ./dist && mkdirp ./dist",
+    "build:umd": "babel ./index.js -o ./dist/tiny-qiniu-request.js",
+    "build:min": "cross-env BABEL_ENV=min babel ./index.js -o ./dist/tiny-qiniu-request.min.js",
+    "build": "npm run build:umd && npm run build:min",
+    "preversion": "npm run build"
+  },
+  "files": [
+    "README.md",
+    "LICENSE.md",
+    "dist"
+  ],
+  "main": "index.js",
+  "author": "cap32",
+  "license": "MIT",
+  "peerDependencies": {
+    "tiny-qiniu": "^0.2.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-plugin-transform-es2015-modules-umd": "^6.24.1",
+    "babel-preset-babili": "^0.0.12",
+    "cross-env": "^5.0.0",
+    "mkdirp": "^0.5.1",
+    "rimraf": "^2.6.1"
+  },
+  "dependencies": {}
+}
