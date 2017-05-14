@@ -9,6 +9,7 @@ tiny-qiniu for [rc-upload](https://github.com/react-component/upload/blob/master
 yarn add tiny-qiniu tiny-qiniu-request
 ```
 
+
 ## Usage
 
 `tiny-qiniu-request` should work together with [rc-upload](https://github.com/react-component/upload/blob/master/README.md) or [antd upload component](https://ant.design/components/upload/)
@@ -34,7 +35,9 @@ export default class MyUpload extends {
 }
 ```
 
-##### `tinyQiniuRequest(option)`
+##### Signature
+
+`tinyQiniuRequest(option)`
 
 The `option` usage is the same with [tiny-qiniu constructor option](https://github.com/die-welle/tiny-qiniu#tinyqiniuconstructoroptions) 
 
@@ -42,6 +45,7 @@ The `option` usage is the same with [tiny-qiniu constructor option](https://gith
 ## Related Projects
 
 - [tiny-qiniu](https://github.com/die-welle/tiny-qiniu)
+
 
 ## License
 
